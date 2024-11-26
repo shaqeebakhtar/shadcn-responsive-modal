@@ -12,7 +12,7 @@ import {
   ModalTitle,
   ModalTrigger,
 } from '@/components/ui/modal';
-import { Input } from './ui/input';
+import { Input } from '@/components/ui/input';
 
 function DemoModal() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
